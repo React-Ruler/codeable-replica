@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+// Import a Google Font
+/*@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");*/
+@import url("../assets/fonts/Calluna/calluna-font.css");
+@import url("../assets/fonts/urw-geometric/urw_geometric.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #ffb299;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$text-strong: #151d23;
+$text: #151d23;
+$size-5: 1.125rem;
+$weight-normal: 400;
+$border-hover: #ffb299;
+$scheme-main: hsl(0, 0%, 100%);
+
+// Update Bulma's global variables
+$family-sans-serif: serif;
+$family-primary: "urw_geometricbold", sans-serif;
+$family-secondary: "urw_geometricmedium", sans-serif;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+$navbar-item-img-max-height: 2.75rem;
+$hero-body-padding-large: 3rem 1.5rem;
+$title-color: $text-strong;
+$subtitle-color: $text;
+$subtitle-size: $size-5;
+$subtitle-line-height: 1.75rem;
+$title-line-height: 3.5rem;
+$title-weight: $weight-normal;
+$breadcrumb-item-separator-color: $border-hover;
+$navbar-background-color: $scheme-main;
+$navbar-height: 7rem;
+$box-background-color: #000;
+$box-color: #fff;
+$card-background-color: #000;
+$card-color: #fff;
+
+.section.bg {
+  background-color: rgb(237, 245, 242);
+}
+
+.swiper-container {
+  width: 500px;
+  height: 500px;
+  font-family: sans-serif;
+}
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
